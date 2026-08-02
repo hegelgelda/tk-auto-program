@@ -2,23 +2,16 @@
 #
 # 【セットアップ手順】
 # 1. このファイルを対象リポジトリの .github/workflows/fetch_competitor_prices.yml として保存
-# 2. fetch_competitor_prices.py を同じリポジトリのルート（またはお好みのフォルダ）に置く
-# 3. 下記 "毎日 何時に実行するか" の cron を必要に応じて調整（デフォルトは日本時間 13:00）
+# 2. fetch_competitor_prices.py を同じリポジトリのルートに置く
+# 3. 下記 cron を必要に応じて調整（デフォルトは日本時間 13:00）
 # 4. リポジトリにpushすれば、GitHub Actionsが自動的に有効になります
-#    （Actionsタブから手動実行して動作確認も可能：「Run workflow」ボタン）
 #
-# 実行結果（sotai.csv / psa.csv / box.csv）は data/ フォルダにコミットされ、
-# 履歴として溜まっていきます（差分がGit履歴に残るので、価格推移も後から追える）。
-# さらに、同じCSVをGoogle Driveの指定フォルダにもアップロードします
-# （Claudeプロジェクトの「コンテキスト」にそのフォルダ/ファイルを追加しておけば、
-#  毎日自動で最新の他社価格データが反映されます）。
-#
-# 【追加でのセットアップ】
-# 5. upload_to_drive.py もリポジトリのルートに置く
-# 6. リポジトリの Settings > Secrets and variables > Actions で、以下の2つを追加：
-#      GOOGLE_SERVICE_ACCOUNT_JSON  … サービスアカウントのJSON鍵の中身をそのまま貼り付け
-#      GOOGLE_DRIVE_FOLDER_ID       … アップロード先のGoogle DriveフォルダID
-#    （詳細な準備手順は upload_to_drive.py 冒頭のコメントを参照）
+# 実行結果（sotai.csv / psa.csv / box.csv）は data/ フォルダにコミットされます。
+# リポジトリがPublicなので、以下の固定URLで常に最新版を外部から参照できます：
+#   https://raw.githubusercontent.com/GITHUB_ORG/GITHUB_REPO/main/data/sotai.csv
+#   https://raw.githubusercontent.com/GITHUB_ORG/GITHUB_REPO/main/data/psa.csv
+#   https://raw.githubusercontent.com/GITHUB_ORG/GITHUB_REPO/main/data/box.csv
+# （GITHUB_ORG / GITHUB_REPO は実際のユーザー名・リポジトリ名に置き換えてください）
 
 name: 他社買取データ取得
 
@@ -44,7 +37,7 @@ jobs:
           python-version: "3.11"
 
       - name: 必要なライブラリをインストール
-        run: pip install requests pandas google-api-python-client google-auth
+        run: pip install requests pandas
 
       - name: データ取得スクリプトを実行
         env:
@@ -58,17 +51,3 @@ jobs:
           git add data/*.csv
           git diff --cached --quiet || git commit -m "他社買取データ更新 $(date -u +'%Y-%m-%d')"
           git push
-
-      - name: サービスアカウント鍵をファイルに書き出し
-        run: echo '${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}' > service_account.json
-
-      - name: Google Driveにアップロード
-        env:
-          OUTPUT_DIR: data
-          GOOGLE_SERVICE_ACCOUNT_FILE: service_account.json
-          GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
-        run: python upload_to_drive.py
-
-      - name: サービスアカウント鍵を削除
-        if: always()
-        run: rm -f service_account.json
