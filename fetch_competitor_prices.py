@@ -1,45 +1,74 @@
-"""
-他社買取データ 定時取得スクリプト
-─────────────────────────
-mocha0908.github.io/TCK-kaitori/data.json から sotai / psa / box の
-3カテゴリを取得し、それぞれCSVに保存する。
+# 他社買取データ 定時取得ワークフロー
+#
+# 【セットアップ手順】
+# 1. このファイルを対象リポジトリの .github/workflows/fetch_competitor_prices.yml として保存
+# 2. fetch_competitor_prices.py を同じリポジトリのルート（またはお好みのフォルダ）に置く
+# 3. 下記 "毎日 何時に実行するか" の cron を必要に応じて調整（デフォルトは日本時間 13:00）
+# 4. リポジトリにpushすれば、GitHub Actionsが自動的に有効になります
+#    （Actionsタブから手動実行して動作確認も可能：「Run workflow」ボタン）
+#
+# 実行結果（sotai.csv / psa.csv / box.csv）は data/ フォルダにコミットされ、
+# 履歴として溜まっていきます（差分がGit履歴に残るので、価格推移も後から追える）。
+# さらに、同じCSVをGoogle Driveの指定フォルダにもアップロードします
+# （Claudeプロジェクトの「コンテキスト」にそのフォルダ/ファイルを追加しておけば、
+#  毎日自動で最新の他社価格データが反映されます）。
+#
+# 【追加でのセットアップ】
+# 5. upload_to_drive.py もリポジトリのルートに置く
+# 6. リポジトリの Settings > Secrets and variables > Actions で、以下の2つを追加：
+#      GOOGLE_SERVICE_ACCOUNT_JSON  … サービスアカウントのJSON鍵の中身をそのまま貼り付け
+#      GOOGLE_DRIVE_FOLDER_ID       … アップロード先のGoogle DriveフォルダID
+#    （詳細な準備手順は upload_to_drive.py 冒頭のコメントを参照）
 
-Colab版から、Colab固有の処理（files.download等）を除いただけの内容。
-GitHub Actions等の自動実行環境でそのまま動く。
+name: 他社買取データ取得
 
-出力先: OUTPUT_DIR で指定したフォルダに
-  sotai.csv, psa.csv, box.csv
-を上書き保存する。
-"""
+on:
+  schedule:
+    # UTC基準。日本時間(JST=UTC+9)の13:00に実行するため UTC 4:00 を指定
+    - cron: "0 4 * * *"
+  workflow_dispatch: {}  # Actionsタブから手動実行するためのトリガー
 
-import os
-import requests
-import pandas as pd
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 取得結果をリポジトリにコミットするため
 
-URL = "https://mocha0908.github.io/TCK-kaitori/data.json"
-OUTPUT_DIR = os.environ.get("OUTPUT_DIR", ".")  # GitHub Actions側で変更可能
+    steps:
+      - name: リポジトリをチェックアウト
+        uses: actions/checkout@v4
 
+      - name: Python セットアップ
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
 
-def fetch_and_save():
-    res = requests.get(URL, headers={"Cache-Control": "no-cache"}, timeout=30)
-    res.raise_for_status()
-    data = res.json()
+      - name: 必要なライブラリをインストール
+        run: pip install requests pandas google-api-python-client google-auth
 
-    df_sotai = pd.DataFrame(data.get("sotai", []))
-    df_psa = pd.DataFrame(data.get("psa", []))
-    df_box = pd.DataFrame(data.get("box", []))
+      - name: データ取得スクリプトを実行
+        env:
+          OUTPUT_DIR: data
+        run: python fetch_competitor_prices.py
 
-    print("sotai:", len(df_sotai), "件")
-    print("psa  :", len(df_psa), "件")
-    print("box  :", len(df_box), "件")
+      - name: 取得結果をコミット
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/*.csv
+          git diff --cached --quiet || git commit -m "他社買取データ更新 $(date -u +'%Y-%m-%d')"
+          git push
 
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-    df_sotai.to_csv(os.path.join(OUTPUT_DIR, "sotai.csv"), index=False, encoding="utf-8-sig")
-    df_psa.to_csv(os.path.join(OUTPUT_DIR, "psa.csv"), index=False, encoding="utf-8-sig")
-    df_box.to_csv(os.path.join(OUTPUT_DIR, "box.csv"), index=False, encoding="utf-8-sig")
+      - name: サービスアカウント鍵をファイルに書き出し
+        run: echo '${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}' > service_account.json
 
-    print("保存完了:", OUTPUT_DIR)
+      - name: Google Driveにアップロード
+        env:
+          OUTPUT_DIR: data
+          GOOGLE_SERVICE_ACCOUNT_FILE: service_account.json
+          GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
+        run: python upload_to_drive.py
 
-
-if __name__ == "__main__":
-    fetch_and_save()
+      - name: サービスアカウント鍵を削除
+        if: always()
+        run: rm -f service_account.json
