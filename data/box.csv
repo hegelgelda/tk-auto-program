@@ -1,34 +1,34 @@
 ﻿status,id,name,code,spec,img,is_ask,price_max,price_limit,price_reduce,price_after,price_state,price_a_minus,price_b,sort_price
 掲載,234817,ストームエメラルダ(1BOX),,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/c35f41b7-1b28-483a-b382-abb6a0b1734f.png,False,"¥20,000",-,-,"¥20,000","¥19,000","¥19,000","¥18,000",20000
-掲載,232417,アビスアイ(1BOX),,未開封,https://production-recore-public-files.s3.ap-northeast-1.amazonaws.com/gD28pgFNAqPfjeHRlrrpVwM2eMXSR5VZnpYJI82z.png,False,"¥9,500",-,-,"¥9,500","¥9,000","¥9,000","¥8,500",9500
+掲載,232417,アビスアイ(1BOX),,未開封,https://production-recore-public-files.s3.ap-northeast-1.amazonaws.com/gD28pgFNAqPfjeHRlrrpVwM2eMXSR5VZnpYJI82z.png,False,"¥9,300",-,-,"¥9,300","¥8,800","¥8,800","¥8,300",9300
 掲載,229061,ニンジャスピナー(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/fa7467a1-9e85-4ff7-90e8-d96677ce368f.png,False,"¥11,000",-,-,"¥11,000","¥10,400","¥10,400","¥9,900",11000
-掲載,227504,ムニキスゼロ(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/7f53de36-f70c-41ae-834d-d0d1e95da47c.png,False,"¥9,300",-,-,"¥9,300","¥8,800","¥8,800","¥8,300",9300
-掲載,224926,MEGAドリームex(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/f8660d10-f9a8-4141-85c0-7c754fbccb0a.png,False,"¥13,500",-,-,"¥13,500","¥12,800","¥12,800","¥12,100",13500
-掲載,222890,インフェルノX(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/761c1ee3-c079-475e-8c92-5494dea84b53.png,False,"¥21,800",-,-,"¥21,800","¥20,700","¥20,700","¥19,600",21800
-掲載,221113,メガブレイブ(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/ba5e77be-ff21-4e0d-88f2-b23858491e3b.jpg,False,"¥12,300",-,-,"¥12,300","¥11,600","¥11,600","¥11,000",12300
-掲載,221124,メガシンフォニア(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/ebda3235-6e88-4fdd-909e-4ec459f448bd.jpg,False,"¥11,000",-,-,"¥11,000","¥10,400","¥10,400","¥9,900",11000
+掲載,227504,ムニキスゼロ(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/7f53de36-f70c-41ae-834d-d0d1e95da47c.png,False,"¥9,000",-,-,"¥9,000","¥8,500","¥8,500","¥8,100",9000
+掲載,224926,MEGAドリームex(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/f8660d10-f9a8-4141-85c0-7c754fbccb0a.png,False,"¥13,300",-,-,"¥13,300","¥12,600","¥12,600","¥11,900",13300
+掲載,222890,インフェルノX(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/761c1ee3-c079-475e-8c92-5494dea84b53.png,False,"¥21,300",-,-,"¥21,300","¥20,200","¥20,200","¥19,100",21300
+掲載,221113,メガブレイブ(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/ba5e77be-ff21-4e0d-88f2-b23858491e3b.jpg,False,"¥11,600",-,-,"¥11,600","¥11,000","¥11,000","¥10,400",11600
+掲載,221124,メガシンフォニア(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/ebda3235-6e88-4fdd-909e-4ec459f448bd.jpg,False,"¥10,600",-,-,"¥10,600","¥10,000","¥10,000","¥9,500",10600
 掲載,215873,ブラックボルト(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/0b0b1b11-ddaf-46cd-b2f7-8e28270fdaeb.jpg,False,"¥25,700",-,-,"¥25,700","¥24,400","¥24,400","¥23,100",25700
 掲載,215884,ホワイトフレア(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/d4b0ec67-abaa-45cf-8ce7-6f58fcfd7cec.jpg,False,"¥22,300",-,-,"¥22,300","¥21,100","¥21,100","¥20,000",22300
 掲載,215899,拡張パックデラックス ブラックボルト (1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/04d98a77-02c3-4357-ba27-28154bc80c82.jpg,False,"¥26,100",-,-,"¥26,100","¥24,700","¥24,700","¥23,400",26100
 掲載,215900,拡張パックデラックス ホワイトフレア (1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/9fc494b7-a750-46db-91ec-eda3502da4a3.jpg,False,"¥22,700",-,-,"¥22,700","¥21,500","¥21,500","¥20,400",22700
 掲載,214329,ロケット団の栄光,-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/d11ba5d2-4d29-4880-939a-0d61880f3c70.jpg,False,"¥27,000",-,-,"¥27,000","¥25,600","¥25,600","¥24,300",27000
 掲載,213922,熱風のアリーナ,sv9a,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/12c63d6d-e95e-4ceb-8cf9-d9ec2dd45590.jpg,False,"¥21,300",-,-,"¥21,300","¥20,200","¥20,200","¥19,100",21300
-掲載,212841,バトルパートナーズ(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/57898e88-34c7-4120-b8f3-f2e86dc09be7.jpg,False,"¥11,500",-,-,"¥11,500","¥10,900","¥10,900","¥10,300",11500
+掲載,212841,バトルパートナーズ(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/57898e88-34c7-4120-b8f3-f2e86dc09be7.jpg,False,"¥11,000",-,-,"¥11,000","¥10,400","¥10,400","¥9,900",11000
 掲載,212356,テラスタルフェスex(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/af93fcba-25ce-4b36-a973-7ee37dfbc028.jpg,False,"¥19,000",-,-,"¥19,000","¥18,000","¥18,000","¥17,100",19000
 掲載,211818,超電ブレイカー(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/66d66e7f-928b-4ba4-b382-9546f2e2d712.jpg,False,"¥32,000",-,-,"¥32,000","¥30,400","¥30,400","¥28,800",32000
-掲載,211621,楽園ドラゴーナ(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/087411e6-effd-4051-9e96-ba05fc92d79b.jpg,False,"¥15,500",-,-,"¥15,500","¥14,700","¥14,700","¥13,900",15500
+掲載,211621,楽園ドラゴーナ(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/087411e6-effd-4051-9e96-ba05fc92d79b.jpg,False,"¥16,000",-,-,"¥16,000","¥15,200","¥15,200","¥14,400",16000
 掲載,209890,ナイトワンダラー(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/c566b4b8-d9ad-4627-9075-272e0b97481c.jpg,False,"¥13,000",-,-,"¥13,000","¥12,300","¥12,300","¥11,700",13000
 掲載,210559,ステラミラクル(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/3d293f97-a6ca-4f10-9048-9930cbfc9601.jpg,False,"¥13,000",-,-,"¥13,000","¥12,300","¥12,300","¥11,700",13000
 掲載,208843,変幻の仮面,sv6,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/f65a060d-6c57-4bb9-8744-4bb0a4f1ea58.jpg,False,"¥15,000",-,-,"¥15,000","¥14,200","¥14,200","¥13,500",15000
 掲載,208405,クリムゾンヘイズ,sv5a,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/b51826e1-7776-4837-907a-747a9b16a7a4.jpg,False,"¥14,500",-,-,"¥14,500","¥13,700","¥13,700","¥13,000",14500
 掲載,206524,サイバージャッジ,sv5M,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/117b3302-e74f-49eb-a866-667189678f37.jpg,False,"¥13,000",-,-,"¥13,000","¥12,300","¥12,300","¥11,700",13000
-掲載,206449,ワイルドフォース,sv5K,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/d2ea5f75-dd34-4ed6-8b9d-c8a7cd28f145.jpg,False,"¥15,500",-,-,"¥15,500","¥14,700","¥14,700","¥13,900",15500
+掲載,206449,ワイルドフォース,sv5K,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/d2ea5f75-dd34-4ed6-8b9d-c8a7cd28f145.jpg,False,"¥16,000",-,-,"¥16,000","¥15,200","¥15,200","¥14,400",16000
 掲載,20066,シャイニートレジャーex(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/e4411192-be7a-4ea5-a580-b632d6f419d4.jpg,False,"¥17,400",-,-,"¥17,400","¥16,500","¥16,500","¥15,600",17400
-掲載,19709,レイジングサーフ,sv3a,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/fbbef10e-37ce-4a97-9d42-e95163c5bcb4.jpg,False,"¥15,000",-,-,"¥15,000","¥14,200","¥14,200","¥13,500",15000
+掲載,19709,レイジングサーフ,sv3a,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/fbbef10e-37ce-4a97-9d42-e95163c5bcb4.jpg,False,"¥14,500",-,-,"¥14,500","¥13,700","¥13,700","¥13,000",14500
 掲載,19922,未来の一閃,sv4M,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/4ee5f298-3dbe-4cf2-bd94-d907d4d746c6.jpg,False,"¥12,600",-,-,"¥12,600","¥11,900","¥11,900","¥11,300",12600
 掲載,19921,古代の咆哮,sv4K,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/1ff41a79-399e-44f9-8caa-b7fa1a92c0f7.jpg,False,"¥13,500",-,-,"¥13,500","¥12,800","¥12,800","¥12,100",13500
 掲載,19387,黒炎の支配者(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/f1162542-711a-4d8b-879c-367d52135dd7.jpg,False,"¥18,400",-,-,"¥18,400","¥17,400","¥17,400","¥16,500",18400
-掲載,18624,ポケモンカード151(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/b3c84e7d-bf84-4a87-81db-de68fa041599.png,False,"¥58,200",-,-,"¥58,200","¥55,200","¥55,200","¥52,300",58200
+掲載,18624,ポケモンカード151(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/b3c84e7d-bf84-4a87-81db-de68fa041599.png,False,"¥61,100",-,-,"¥61,100","¥58,000","¥58,000","¥54,900",61100
 掲載,19661,クレイバースト(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/06716c85-802d-410f-8390-f94a62c646fc.jpg,False,"¥13,000",-,-,"¥13,000","¥12,300","¥12,300","¥11,700",13000
 掲載,19001,スノーハザード,sv2P,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/3b77fbe8-95c5-41dc-922f-ea62454c548d.jpg,False,"¥12,600",-,-,"¥12,600","¥11,900","¥11,900","¥11,300",12600
 掲載,208602,トリプレットビート,sv1a,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/04906148-756f-4b2f-aff2-a24f9626dbd4.jpg,False,"¥18,400",-,-,"¥18,400","¥17,400","¥17,400","¥16,500",18400
@@ -36,10 +36,10 @@
 掲載,18593,スカーレットex,sv1S,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/9af35ee0-11ff-4305-9399-a04380542370.jpg,False,"¥14,500",-,-,"¥14,500","¥13,700","¥13,700","¥13,000",14500
 掲載,18999,VSTARユニバース(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/cd634768-1050-456c-a7df-36acd0a5ecd9.jpg,False,"¥30,000",-,-,"¥30,000","¥28,500","¥28,500","¥27,000",30000
 掲載,19234,VMAXクライマックス(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/a2c2817d-da29-45f4-b0b8-da479f8e16ec.jpg,False,"¥33,900",-,-,"¥33,900","¥32,200","¥32,200","¥30,500",33900
-掲載,19031,イーブイヒーローズ(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/ee638230-694d-474f-8dfa-2b9fb92d0931.jpg,False,"¥145,500",-,-,"¥145,500","¥138,000","¥138,000","¥130,000",145500
+掲載,19031,イーブイヒーローズ(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/ee638230-694d-474f-8dfa-2b9fb92d0931.jpg,False,"¥143,500",-,-,"¥143,500","¥136,000","¥136,000","¥129,000",143500
 掲載,19235,シャイニースターV,s4a,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/80bcc699-18ff-4493-9c36-8531a4bd6b1d.png,False,"¥20,300",-,-,"¥20,300","¥19,200","¥19,200","¥18,200",20300
 掲載,19608,TAG TEAM GX タッグオールスターズ,sm12a,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/e4d2b4ad-f296-4c64-99d4-b7baf7c2b1e7.png,False,"¥200,000",-,-,"¥200,000","¥190,000","¥190,000","¥180,000",200000
-掲載,19693,ドリームリーグ,sm11b,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/e6591b29-7862-4bbc-ad7d-4369cf6c7274.jpg,False,"¥164,900",-,-,"¥164,900","¥156,000","¥156,000","¥148,000",164900
+掲載,19693,ドリームリーグ,sm11b,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/e6591b29-7862-4bbc-ad7d-4369cf6c7274.jpg,False,"¥160,000",-,-,"¥160,000","¥152,000","¥152,000","¥144,000",160000
 掲載,19666,タッグボルト,sm9,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/acb2d57d-c9cb-44ad-8213-8f4b4e6a31fa.png,False,"¥407,400",-,-,"¥407,400","¥387,000","¥387,000","¥366,000",407400
 掲載,19876,裂空のカリスマ,sm7,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/7b1e502a-3968-4ca0-a2de-d1592e502e6b.jpg,False,"¥480,000",2,-,"¥480,000","¥456,000","¥456,000","¥432,000",480000
 掲載,19620,スペースジャグラー,s10P,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/7f7dc24e-d6a0-4105-b068-ac171fd57292.png,False,"¥13,500",5,-,"¥13,500","¥12,800","¥12,800","¥12,100",13500
@@ -50,6 +50,7 @@
 掲載,209884,フェアリーライズ,sm7b,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/ce093dc7-e29c-4965-8ee4-bfde8633b54f.jpg,False,"¥87,300",-,-,"¥87,300","¥82,900","¥82,900","¥78,500",87300
 強化,229088,LIMIT OVER COLLECTION-THE HEROES-(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/yugioh/dd7b036d-7403-4bec-80f6-f58a5001deec.png,False,"¥14,700",200,定額設定,"¥14,000","¥13,900","¥13,900","¥13,200",14700
 掲載,208018,PREMIUM PACK 25th復刻版(未開封BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/yugioh/e50d56f6-5fd9-4b47-8f05-51cd7b69da9a.jpg,False,"¥4,500",100,-,"¥4,500","¥4,200","¥4,200","¥4,000",4500
+掲載,230983,逆札篇 第1弾 逆転神VS切札竜,DM26-RP1,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/duel_masters/dfc846a2-cf71-439d-9a1f-d6feca1542f6.png,False,"¥6,300",10,定額設定,"¥5,500","¥5,900","¥5,900","¥5,600",6300
 掲載,211595,ブースターパック ホロライブプロダクション Vol.1&Vol.2 Re:Mix,-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/ws_tcg/4913ca86-f72e-43f9-bd65-12b49d1d0aed.jpg,False,"¥7,200",100,15%,"¥6,120","¥6,800","¥6,800","¥6,400",7200
 掲載,212526,ヴァイスシュヴァルツ 勝利の女神：NIKKE(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/ws_tcg/9de73d24-130a-48b6-bf70-22274ebc354a.jpg,False,"¥8,700",100,15%,"¥7,395","¥8,200","¥8,200","¥7,800",8700
 掲載,217895,ブースターパック あおぎり高校(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/ws_tcg/eb45ef68-bf6b-4732-a5ad-2c3e867f54a2.jpg,False,"¥5,300",50,15%,"¥4,505","¥5,000","¥5,000","¥4,700",5300
@@ -75,5 +76,5 @@
 掲載,220852,久遠の終端 プレイ・ブースター 英語版 (1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/mtg/8e65d316-267c-4b5a-8e28-ee8f8b8243f8.jpg,False,"¥13,500",-,-,"¥13,500","¥12,800","¥12,800","¥12,100",13500
 掲載,220854,久遠の終端 バンドル 英語版 (1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/mtg/aeb75acc-c519-444c-830e-ac0d8e22b5fc.jpg,False,"¥5,200",-,-,"¥5,200","¥4,900","¥4,900","¥4,600",5200
 掲載,220794,【英語版】Fallout コレクター・ブースター(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/mtg/a3018643-1e3e-4af5-868d-2434219bc0f4.jpg,False,"¥116,400",-,-,"¥116,400","¥110,000","¥110,000","¥104,000",116400
-掲載,233884,"Casio G-Shock x Pokemon GA-110PKM-7AJR ""White""",,素体,https://production-recore-public-files.s3.ap-northeast-1.amazonaws.com/tMZAo2ajbXfSJutgOmS2Qu8mV6B0ccStCYd72phV.png,False,"¥60,100",10,-,"¥60,100","¥57,000","¥57,000","¥54,000",60100
+掲載,233884,"Casio G-Shock x Pokemon GA-110PKM-7AJR ""White""",,素体,https://production-recore-public-files.s3.ap-northeast-1.amazonaws.com/tMZAo2ajbXfSJutgOmS2Qu8mV6B0ccStCYd72phV.png,False,"¥56,200",10,-,"¥56,200","¥53,300","¥53,300","¥50,500",56200
 掲載,216073,『FINAL FANTASY』 コレクター・ブースター 英語版(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/mtg/af3b28f7-1e86-4dc9-89e7-327f30421965.jpg,False,"¥291,000",-,-,"¥291,000","¥276,000","¥276,000","¥261,000",291000
