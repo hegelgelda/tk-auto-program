@@ -1,6 +1,4 @@
 ﻿status,id,name,code,spec,img,is_ask,price_max,price_limit,price_reduce,price_after,price_state,price_a_minus,price_b,price_c,sort_price
-掲載,235730,30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー,,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/95d96ce0-ad7c-4e35-8f32-0d7aa6baab66.png,False,"¥18,000",20,-,"¥18,000","¥17,100","¥17,100","¥16,200","¥12,600",18000
-掲載,235731,30th CELEBRATION FUTURISTIC BOX,,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/9d1ffcee-843d-4d45-8943-3ba1e9e89fd7.png,False,"¥63,000",20,-,"¥63,000","¥59,800","¥59,800","¥56,700","¥44,100",63000
 掲載,232417,アビスアイ(1BOX),,未開封,https://production-recore-public-files.s3.ap-northeast-1.amazonaws.com/gD28pgFNAqPfjeHRlrrpVwM2eMXSR5VZnpYJI82z.png,False,"¥7,800",-,-,"¥7,800","¥7,400","¥7,400","¥7,000","¥5,400",7800
 掲載,229061,ニンジャスピナー(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/fa7467a1-9e85-4ff7-90e8-d96677ce368f.png,False,"¥8,500",-,-,"¥8,500","¥8,000","¥8,000","¥7,600","¥5,900",8500
 掲載,227504,ムニキスゼロ(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/7f53de36-f70c-41ae-834d-d0d1e95da47c.png,False,"¥8,800",-,-,"¥8,800","¥8,300","¥8,300","¥7,900","¥6,100",8800
@@ -11,11 +9,11 @@
 掲載,215884,ホワイトフレア(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/d4b0ec67-abaa-45cf-8ce7-6f58fcfd7cec.jpg,False,"¥18,500",-,-,"¥18,500","¥17,500","¥17,500","¥16,600","¥12,900",18500
 掲載,215899,拡張パックデラックス ブラックボルト (1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/04d98a77-02c3-4357-ba27-28154bc80c82.jpg,False,"¥21,300",-,-,"¥21,300","¥20,200","¥20,200","¥19,100","¥14,900",21300
 掲載,215900,拡張パックデラックス ホワイトフレア (1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/9fc494b7-a750-46db-91ec-eda3502da4a3.jpg,False,"¥19,900",-,-,"¥19,900","¥18,900","¥18,900","¥17,900","¥13,900",19900
-掲載,214329,ロケット団の栄光,-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/d11ba5d2-4d29-4880-939a-0d61880f3c70.jpg,False,"¥21,800",-,-,"¥21,800","¥20,700","¥20,700","¥19,600","¥15,200",21800
+掲載,214329,ロケット団の栄光,-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/d11ba5d2-4d29-4880-939a-0d61880f3c70.jpg,False,"¥20,900",-,-,"¥20,900","¥19,800","¥19,800","¥18,800","¥14,600",20900
 掲載,213922,熱風のアリーナ,sv9a,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/12c63d6d-e95e-4ceb-8cf9-d9ec2dd45590.jpg,False,"¥16,600",-,-,"¥16,600","¥15,700","¥15,700","¥14,900","¥11,600",16600
 掲載,212841,バトルパートナーズ(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/57898e88-34c7-4120-b8f3-f2e86dc09be7.jpg,False,"¥10,400",-,-,"¥10,400","¥9,800","¥9,800","¥9,300","¥7,200",10400
 掲載,212356,テラスタルフェスex(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/af93fcba-25ce-4b36-a973-7ee37dfbc028.jpg,False,"¥16,600",100,-,"¥16,600","¥15,700","¥15,700","¥14,900","¥11,600",16600
-掲載,211818,超電ブレイカー(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/66d66e7f-928b-4ba4-b382-9546f2e2d712.jpg,False,"¥23,700",-,-,"¥23,700","¥22,500","¥22,500","¥21,300","¥16,500",23700
+掲載,211818,超電ブレイカー(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/66d66e7f-928b-4ba4-b382-9546f2e2d712.jpg,False,"¥25,600",20,-,"¥25,600","¥24,300","¥24,300","¥23,000","¥17,900",25600
 掲載,211621,楽園ドラゴーナ(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/087411e6-effd-4051-9e96-ba05fc92d79b.jpg,False,"¥14,200",-,-,"¥14,200","¥13,400","¥13,400","¥12,700","¥9,900",14200
 掲載,209890,ナイトワンダラー(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/c566b4b8-d9ad-4627-9075-272e0b97481c.jpg,False,"¥10,400",-,-,"¥10,400","¥9,800","¥9,800","¥9,300","¥7,200",10400
 掲載,210559,ステラミラクル(1BOX),-,未開封,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/3d293f97-a6ca-4f10-9048-9930cbfc9601.jpg,False,"¥10,400",-,-,"¥10,400","¥9,800","¥9,800","¥9,300","¥7,200",10400
