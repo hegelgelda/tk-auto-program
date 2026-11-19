@@ -1,1 +1,2 @@
-﻿
+﻿status,listing_group,id,name,code,spec,img,is_ask,price_max,price_limit,price_reduce,price_after,price_state,price_a_minus,price_b,price_c,price_d,sort_price,is_capped
+掲載,1,,MEGAドリームex(1BOX),-,,https://japan-toreca.s3.ap-northeast-1.amazonaws.com/images/pokemon/f8660d10-f9a8-4141-85c0-7c754fbccb0a.png,False,"¥11,800",-,-,"¥11,800","¥10,600","¥10,600","¥9,000","¥8,000","¥7,000",11800,True
